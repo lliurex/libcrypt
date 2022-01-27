@@ -1,0 +1,18 @@
+Source: libcrypt1
+Section: unknown
+Priority: optional
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/libcrypt1.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/libcrypt1.git
+
+Package: libcrypt1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libc6 (<< 2.31)
+Description: Fake package to provide dependency for libcrypt1
+ libcrypt1 is provided by libc6 < 2.31, with libc6 >= 2.31 this library
+ is provided as separate package, this package allow satisfy backport
+ packages install without modification.
+
