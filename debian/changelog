@@ -1,4 +1,4 @@
-libcrypt1 (1:4.4.11-fakelib) bionic-updates; urgency=medium
+libcrypt1 (1:4.4.11.0-fakelib) bionic; urgency=medium
 
   * Initial Release.
 
